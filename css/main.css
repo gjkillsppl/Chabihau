@@ -397,6 +397,12 @@ h1 {
     font-size: 1.9rem;
   }
 }
+@media only screen and (max-width: 768px) {
+  .bottom-shape-holder{
+    display:none;
+  }
+}
+
 
 .headline__btnholder {
   position: relative;
@@ -415,6 +421,7 @@ h2 {
   h2 {
     font-size: 5rem;
   }
+
 }
 
 .section-title__divider {
