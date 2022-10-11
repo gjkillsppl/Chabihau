@@ -131,7 +131,7 @@ $(function() {
       fullpage             = $('#fullpage');
       if (fullpage.length) {
         fullpage.fullpage({
-          anchors: ['main', 'about', 'features', 'portfolio', 'blockquote', 'contact'],
+          anchors: ['inicio', 'historia', 'platillos', 'opiniones', 'contacto'],
           menu: '#menu',
           responsiveWidth: 1200,
           navigation: false,
@@ -142,7 +142,7 @@ $(function() {
 
       if (fullpageNormalScroll.length) {
         fullpageNormalScroll.fullpage({
-          anchors: ['main', 'about', 'features', 'blockquote', 'portfolio', 'contact'],
+          anchors: ['inicio', 'historia', 'platillos', 'opiniones', 'contacto'],
           menu: '#menu',
           responsiveWidth: 1183,
           navigation: false,
@@ -433,3 +433,5 @@ $(function() {
   // --------------------------------------------- //
 
 });
+
+document.getElementsByClassName('css-6kluu6').style.visibility='hidden';
